@@ -1,0 +1,249 @@
+body {
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar2{
+    width: 85%;
+    margin: auto;
+    padding: 0;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar2 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar2 ul li a{
+    text-decoration: none;
+    color: #0e20be;
+    text-transform: uppercase;
+}
+
+.navbar2 ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar2 ul li:hover::after{
+    width: 100%;
+}
+
+/* home page about*/
+
+.navbar{
+    background-color: #333;
+    width: 85%;
+    margin: auto;
+    padding: 0;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 25px;
+    left: 7px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+#laptops {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10x;
+}
+
+/* Add these styles to your existing CSS file */
+
+#about {
+   /* Change this to the desired background color */
+    padding: 20px;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif; /* Change this to the desired font */
+}
+
+#about h2 {
+    font-family: 'Times New Roman', serif; /* Change this to the desired font for headings */
+}
+
+#contact{
+    padding: 20px;
+    margin: 30px 0;
+    font-family: 'Arial', sans-serif; /* Change this to the desired font */
+}
+
+#contact h2 {
+    font-family: 'Times New Roman', serif; /* Change this to the desired font for headings */
+}
+
+#service {
+
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Arial', sans-serif; /* Change this to the desired font */
+}
+
+#service h2 {
+    font-family: 'Times New Roman', serif; /* Change this to the desired font for headings */
+}
+
+#home {
+    background-color: #f0f0f0; /* Change this to the desired background color */
+    padding: 20px;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif; /* Change this to the desired font */
+}
+
+#home h2 {
+    font-family: 'Times New Roman', serif; /* Change this to the desired font for headings */
+}
+
+#service {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#bookingForm {
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Add these styles to your existing CSS file */ /*search button*/
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+#search-bar {
+    margin-left: 1080px;
+    position: absolute;
+    top: 50px;
+}
+
+#searchInput {
+    padding: 5px;
+    margin-right: 8px;
+}
+
+#searchButton {
+    padding: 8px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #45a049;
+}
+
+/* Add these styles to your existing CSS file */ /*footer*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position:-ms-page;
+    bottom: 0;
+    width: 99%;
+}
+
+.buy-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.buy-now-button:hover {
+    background-color: #45a049;
+}
